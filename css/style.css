@@ -1,0 +1,47 @@
+/*   Em arquivos css */ 
+/*   *{} O asterisco é uma tag css que abrange tudo; aplica os comandos css a todos os elementos da página      */ 
+/*   html{}  Tag que aplica os comandos css a todos/área visivel do site, com execeção do <body> */
+/*   body{}  Tag que aplica os comandos css aos elementos de <body>, não afetando <head. ou <html>   */ 
+
+*{
+    margin: 0px; 
+}
+
+html{
+
+    margin: 20px; 
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    padding: 8px 12px; 
+    background-color:bisque;
+}
+
+nav a {
+    color:blue;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: 400px; 
+}
+
+a:hover{
+    color: red
+}
+
+/*   o  ponto final indica classes   */ 
+.centralizado {
+    text-align:center; 
+}
+
+.banner{
+    display: flex;    
+}
+
+.banner div {
+    width: 25%;
+    padding: 20px; 
+}
