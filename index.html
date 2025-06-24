@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bamba! </title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--- Fonte baioxada do fonts google.  link: https://fonts.google.com/selection/embed   --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <img src="./img/bamba.avif" alt="Descrição Tenis Bamba" height="20px">
-        <a href="#lancamentos"> Lançamentos </a>
-        <a href="#"> Linha Masculina </a>
-        <a href="#"> Linha Feminina </a>
-        <a href="#"> Linha Infantil</a>
-    </nav>
-
+    <header>
+        <nav>
+            <img src="./img/bamba.avif" alt="Descrição Tenis Bamba" height="20px">
+            <a href="#Lancamentos"> Lançamentos </a>
+            <a href="#Femininos"> Linha Masculina adulta</a>
+            <a href="#Masculinos"> Linha Feminina adulta</a>
+            <a href="#"> Linha Infantil</a>
+        </nav>
+    </header>
     <!--  <main> </main>   Tag cuja a sessão geralmente traz o conteúdo/área principal do site  -->
     <main>
         <div class="centralizado">
@@ -22,22 +28,132 @@
         </div>
         <!-- id é uma tag usada para carregar outra parte da página -->
         <!--  id="bobaia"    para chamar o id, use cerquilhe e o nome.  Ex: <a href="#bobaia" -->
-        <div id="lancamentos">
-            <h2 class="centralizado">Lançamentos</h2> 
+        <section id="Lancamentos" class="lancamentos">
+            <h2 class="centralizado texto-azul">Novos Lançamentos</h2> 
             <div class="banner">
-                <div>foto 1</div>
-                <div>foto 2</div>
-                <div>foto 3</div>
-                <div>foto 4</div>
-            </div>
-        </div>
+                
+                <!--- foto 1  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/classico_marrom.webp " alt="Tenis Bamba, clássico, marrom." width="100%">
+                    <p class="centralizado">
+                        <h3 class="item">Clássico Marrom</h3>
+                    </p> 
+                </article>
 
+                <!--- foto 2  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/tenis_verde.webp" alt="Tenis Bamba, verde." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Esportivo verde/branco</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 3  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/botinha_feminina.webp " alt="Botinha feminina Bamba, flanelada." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Botinha Bamba, flanelada, feminina.</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 4  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/camurca.webp " alt="Tenis Bamba, carmurça." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Tenis feminino Esvaiaçado.</h3>
+                    </p> 
+                </article>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <section id="Femininos" class="lancamentos">
+            <h2 class="centralizado texto-azul">Produtos Femininos</h2> 
+            <div class="banner">
+                
+                <!--- foto 1  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/classico_marrom.webp " alt="Tenis Bamba, clássico, marrom." width="100%">
+                    <p class="centralizado">
+                        <h3 class="item">Clássico Marrom</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 2  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/tenis_verde.webp" alt="Tenis Bamba, verde." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Esportivo verde/branco</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 3  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/botinha_feminina.webp " alt="Botinha feminina Bamba, flanelada." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Botinha Bamba, flanelada, feminina.</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 4  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/camurca.webp " alt="Tenis Bamba, carmurça." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Tenis feminino Esvaiaçado.</h3>
+                    </p> 
+                </article>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <section id="Masculinos" class="lancamentos">
+            <h2 class="centralizado texto-azul">Produtos Masculinos</h2> 
+            <div class="banner">
+                
+                <!--- foto 1  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/classico_marrom.webp " alt="Tenis Bamba, clássico, marrom." width="100%">
+                    <p class="centralizado">
+                        <h3 class="item">Clássico Marrom</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 2  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/tenis_verde.webp" alt="Tenis Bamba, verde." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Esportivo verde/branco</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 3  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/botinha_feminina.webp " alt="Botinha feminina Bamba, flanelada." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Botinha Bamba, flanelada, feminina.</h3>
+                    </p> 
+                </article>
+
+                <!--- foto 4  --->
+                <article class="centralizado">
+                    <img src="./img/lancamentos/camurca.webp " alt="Tenis Bamba, carmurça." width="100%">
+                    <p class="centralizado">
+                       <h3 class="item">Tenis feminino Esvaiaçado.</h3>
+                    </p> 
+                </article>
+            </div>
+        </section>
+        <br>
+        <br>
 
     </main>
 
     <!--   <footer> </footer>   Tag para a sessão de rodapé da página. -->
     <footer>
-
+        <img src="./img/bamba.avif" alt="Logo UseBamba" height="40px">
+        <p class="centralizado"> Copyright (c) 2025 by SismevTi Tecnologia da Informação  </p>
     </footer>    
 
 </body>

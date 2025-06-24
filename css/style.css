@@ -3,8 +3,11 @@
 /*   html{}  Tag que aplica os comandos css a todos/área visivel do site, com execeção do <body> */
 /*   body{}  Tag que aplica os comandos css aos elementos de <body>, não afetando <head. ou <html>   */ 
 
+
 *{
-    margin: 0px; 
+    --largura: calc(100vw - 100px);
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 html{
@@ -32,7 +35,10 @@ a:hover{
     color: red
 }
 
-/*   o  ponto final indica classes   */ 
+/*   o  ponto final indica classes   */
+/*  . é usado para se referir a uma class no arquivo html. */
+/*  class pode ser usado em mais de uma chamada no arquivo html.   */ 
+/*  No arquivo index.html há mais de uma chamada a class centralizado. à duas respondem a esta sessão no css */ 
 .centralizado {
     text-align:center; 
 }
@@ -41,7 +47,39 @@ a:hover{
     display: flex;    
 }
 
+.banner article{
+    width: 25%;
+    padding: 7px;
+}
+
+/*  . é usado para se referir a uma class no arquivo html. */
+/*  class pode ser usado em mais de uma referência.  */ 
 .banner div {
     width: 25%;
-    padding: 20px; 
+    padding: 10px; 
 }
+
+.lancamentos{
+    background-color:beige;
+    /* max-width: var(--largura); */
+    /* max-width: 75rem; */
+    max-width:  100%;
+    margin: auto;
+}
+
+.texto-azul{
+    color:blue;
+}
+
+.item{
+    color:crimson;
+}
+
+footer{
+    background-color:antiquewhite;
+    font-family: monospace, verdana; 
+    color:blue;
+    /*   width: 92%; */
+    padding: 10px 30px 10px 30px;
+}
+
